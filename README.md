@@ -1,8 +1,7 @@
 # Chord service
-The Chord service project is based in sinatra gem
 
 ## The idea
-The first idea is to copy all chords for a mobile device. 
+The initial idea is to copy all chords for a mobile device. 
 
 ## How works?
 Start sinatra 
