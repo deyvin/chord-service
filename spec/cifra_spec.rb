@@ -1,5 +1,7 @@
-require './../lib/cifra-club.rb'
-require 'dependencies'
+
+
+require File.dirname(__FILE__) + '/../lib/cifra-club.rb'
+require File.dirname(__FILE__) + '/spec_helper.rb'
 
 describe CifraClub do
   before(:each) do

@@ -1,8 +1,0 @@
-require 'rubygems'
-require 'sinatra'
-require 'net/http'
-require 'uri'
-require 'nokogiri'
-require 'json'
-require './../lib/cifra-club'
-require './../lib/utils/extend_string'
