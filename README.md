@@ -242,10 +242,10 @@ Para recuperar a cifra completa de uma determinada música
 
 ## Live Demonstration
 ~> http://deyvin-chord-server.herokuapp.com/
-~> http://deyvin-chord-server.herokuapp.com/musicas?artista=garotos+podres
-~> http://deyvin-chord-server.herokuapp.com/artistas?letra=z
-~> http://deyvin-chord-server.herokuapp.com/cifras?uri=/nirvana/about-girl/
-~> http://deyvin-chord-server.herokuapp.com/cifra?uri=/nirvana/about-girl/
+<br>~> http://deyvin-chord-server.herokuapp.com/musicas?artista=garotos+podres
+<br>~> http://deyvin-chord-server.herokuapp.com/artistas?letra=z
+<br>~> http://deyvin-chord-server.herokuapp.com/cifras?uri=/nirvana/about-girl/
+<br>~> http://deyvin-chord-server.herokuapp.com/cifra?uri=/nirvana/about-girl/
 
 ## GitHub Page
 ~> http://deyvin.github.com/chord-service/
