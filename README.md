@@ -9,8 +9,8 @@ Usei para este aplicativo o Sinatra, para rodar a aplicação basta digitar o co
 
 Para recuperar a listagem de um certo artista
 <br><code>http://0.0.0.0:4567/musicas?artista=garotos+podres</code>
-<b>Retorno</b>
-<br><code>
+<br><b>Retorno</b>
+<br><pre>
 [
 	{
 		song: "A Internacional",
@@ -33,12 +33,12 @@ Para recuperar a listagem de um certo artista
 		uri: "/garotos-podres/anistia/"
 	}
 ]
-</code>
+</pre>
 
 Para recuperar a listagem de artista que inicie com uma determinada letra
 <br><code>http://0.0.0.0:4567/artistas?letra=z</code>
-<b>Retorno</b>
-<br><code>
+<br><b>Retorno</b>
+<br><pre>
 [
 	{
 	name: "The Zambonis",
@@ -85,12 +85,12 @@ Para recuperar a listagem de artista que inicie com uma determinada letra
 	uri: "/zabili-mi-zolwia/"
 	}
 ]
-</code>
+</pre>
 
 Para recuperar somente as cifras da música (para uma rápida consulta)
 <br><code>http://0.0.0.0:4567/cifras?uri=/nirvana/about-girl/</code>
-<b>Retorno</b>
-<code>
+<br><b>Retorno</b>
+<pre>
 [
 	"Em",
 	"G",
@@ -120,12 +120,12 @@ Para recuperar somente as cifras da música (para uma rápida consulta)
 	"A5",
 	"C5"
 ]
-</code>
+</pre>
 
 Para recuperar a cifra completa de uma determinada música
 <br><code>http://0.0.0.0:4567/cifra?uri=/nirvana/about-girl/</code>
-<b>Retorno</b>
-<code>
+<br><b>Retorno</b>
+<pre>
 {
 	artist: "Nirvana",
 	song: "About a Girl",
@@ -236,7 +236,7 @@ Para recuperar a cifra completa de uma determinada música
 			 Em G Em G
 			 I do... (4x)"
 }
-</code>
+</pre>
 
 <p><b>IMPORTANTE!</b> Todos os exemplos citados a cima foram resumidos, os resultados costumam ser bem maiores</p>
 
