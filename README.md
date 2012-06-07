@@ -242,7 +242,7 @@ Para recuperar a cifra completa de uma determinada música
 
 ## Participe
 Projeto totalmente aberto a colaboradores, mas não se esqueçam dos testes:
-<br><code>user@server:~/chord-service/spec $ rspec cifra_spec.rb</code>
+<br><code>user@server:~/chord-service $ rspec</code>
 
 ## Autor
 <b>Deyvid Nascimento aka Deyvin</b>
