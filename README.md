@@ -41,48 +41,48 @@ Para recuperar a listagem de artista que inicie com uma determinada letra
 <br><pre>
 [
 	{
-	name: "The Zambonis",
-	uri: "/the-zambonis/"
+		name: "The Zambonis",
+		uri: "/the-zambonis/"
 	},
 	{
-	name: "The Zeest",
-	uri: "/the-zeest/"
+		name: "The Zeest",
+		uri: "/the-zeest/"
 	},
 	{
-	name: "The Zico Chain",
-	uri: "/the-zico-chain/"
+		name: "The Zico Chain",
+		uri: "/the-zico-chain/"
 	},
 	{
-	name: "The Zigners",
-	uri: "/the-zigners/"
+		name: "The Zigners",
+		uri: "/the-zigners/"
 	},
 	{
-	name: "The Zolas",
-	uri: "/the-zolas/"
+		name: "The Zolas",
+		uri: "/the-zolas/"
 	},
 	{
-	name: "The Zombies",
-	uri: "/the-zombies/"
+		name: "The Zombies",
+		uri: "/the-zombies/"
 	},
 	{
-	name: "The Zorden",
-	uri: "/the-zorden/"
+		name: "The Zorden",
+		uri: "/the-zorden/"
 	},
 	{
-	name: "The Zutons",
-	uri: "/the-zutons/"
+		name: "The Zutons",
+		uri: "/the-zutons/"
 	},
 	{
-	name: "Z.D.S",
-	uri: "/zds/"
+		name: "Z.D.S",
+		uri: "/zds/"
 	},
 	{
-	name: "Za-M 45",
-	uri: "/za-45/"
+		name: "Za-M 45",
+		uri: "/za-45/"
 	},
 	{
-	name: "Zabili Mi Zolwia",
-	uri: "/zabili-mi-zolwia/"
+		name: "Zabili Mi Zolwia",
+		uri: "/zabili-mi-zolwia/"
 	}
 ]
 </pre>
