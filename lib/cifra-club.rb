@@ -24,6 +24,25 @@ class CifraClub
   		songs
 	end
 	
+	def get_chord_by_uri(uri)
+	  doc     = nokogiri(uri)
+	  chords  = []
+	  
+	  doc.css("pre#ct_cifra b").each do |a|
+	    chords << a.content
+	  end
+	  chords
+	end
+	
+	def get_song_and_chord_by_uri(uri)
+	  doc   = nokogiri(uri)
+	  retorno = {}
+	  retorno[:artist]  = doc.css("h2#ai_artista").first.content
+	  retorno[:song]    = doc.css("h1#ai_musica").first.content
+	  retorno[:chord]   = doc.css("pre#ct_cifra").first.content
+	  retorno
+	end
+	
 	private
 	  def nokogiri(url)
 	      resp = @@http.get2(url)

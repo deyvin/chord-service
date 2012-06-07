@@ -20,3 +20,13 @@ get "/artistas" do
   cifra = CifraClub.new
   cifra.list_artists_by_letter(params[:letra]).to_json
 end
+
+get "/cifras" do
+  cifra = CifraClub.new
+  cifra.get_chord_by_uri(params[:uri]).to_json
+end
+
+get "/cifra" do
+  cifra = CifraClub.new
+  cifra.get_song_and_chord_by_uri(params[:uri]).to_json
+end
