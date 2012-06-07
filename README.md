@@ -19,5 +19,5 @@ Projeto totalmente aberto a colaboradores, mas não se esqueçam dos testes:
 
 ## Autor
 <b>Deyvid Nascimento aka Deyvin</b>
-Pseudo-músico arrumando um jeito de divertir as 
-pessoas com um violão e um iPhone ;)
+<br>Pseudo-músico arrumando um jeito de divertir as 
+<br>pessoas com um violão e um iPhone ;)
