@@ -1,10 +1,10 @@
 # Chord service
 
 ## A idéia
-A idéia inicial do projeto é criar um rest service que recupere dados de um site de cifras para depois integrar com um aplicativo móvel.
+A idéia inicial do projeto é criar um serviço que recupere dados de um site de cifras para depois integrar com um aplicativo mobile.
 
 ## Como Funciona?
-Usei para este aplicativo o Sinatra, para rodar a aplicação basta digitar o comando
+Para rodar a aplicação basta digitar o comando
 <br><code>user@server:~/chord-service $ ruby -rubygems app.rb</code>
 
 Para recuperar a listagem de um certo artista
